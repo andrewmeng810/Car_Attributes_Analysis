@@ -1,4 +1,4 @@
-car <- read.csv("~/Dropbox/Fall 2015/BAN 250/Final Exam/car.txt", sep="")
+car <- read.csv("car.txt", sep="")
 car1<- car[, 3:16]
 head(car1)
 x1<- car$wheel.base
